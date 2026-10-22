@@ -1,0 +1,4 @@
+base\BaseTest.class
+tests\SearchFunctionalityTest.class
+tests\CategoryNavigationTest.class
+tests\HomePageVerificationTest.class

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-21T12:27:35 IST" name="Surefire suite" finished-at="2026-10-21T12:28:28 IST" duration-ms="52924">
+    <groups>
+    </groups>
+    <test started-at="2026-10-21T12:27:35 IST" name="Surefire test" finished-at="2026-10-21T12:28:28 IST" duration-ms="52924">
+      <class name="tests.HomePageVerificationTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.HomePageVerificationTest@363ee3a2]" started-at="2026-10-21T12:27:55 IST" name="openBrowser" finished-at="2026-10-21T12:28:06 IST" duration-ms="10724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyHomePageNavigationElements()[pri:0, instance:tests.HomePageVerificationTest@363ee3a2]" started-at="2026-10-21T12:28:06 IST" name="verifyHomePageNavigationElements" finished-at="2026-10-21T12:28:10 IST" duration-ms="3917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageNavigationElements -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.HomePageVerificationTest@363ee3a2]" started-at="2026-10-21T12:28:10 IST" name="closeBrowser" finished-at="2026-10-21T12:28:10 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.HomePageVerificationTest -->
+      <class name="tests.SearchFunctionalityTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.SearchFunctionalityTest@4690b489]" started-at="2026-10-21T12:28:10 IST" name="openBrowser" finished-at="2026-10-21T12:28:17 IST" duration-ms="6514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifySearchResultsContainSearchTerm()[pri:0, instance:tests.SearchFunctionalityTest@4690b489]" started-at="2026-10-21T12:28:17 IST" name="verifySearchResultsContainSearchTerm" finished-at="2026-10-21T12:28:27 IST" duration-ms="10269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsContainSearchTerm -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SearchFunctionalityTest@4690b489]" started-at="2026-10-21T12:28:27 IST" name="closeBrowser" finished-at="2026-10-21T12:28:28 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.SearchFunctionalityTest -->
+      <class name="tests.CategoryNavigationTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.CategoryNavigationTest@18ce0030]" started-at="2026-10-21T12:27:35 IST" name="openBrowser" finished-at="2026-10-21T12:27:48 IST" duration-ms="13175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyDressCategoryPageLoads()[pri:0, instance:tests.CategoryNavigationTest@18ce0030]" started-at="2026-10-21T12:27:48 IST" name="verifyDressCategoryPageLoads" finished-at="2026-10-21T12:27:55 IST" duration-ms="6784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDressCategoryPageLoads -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.CategoryNavigationTest@18ce0030]" started-at="2026-10-21T12:27:55 IST" name="closeBrowser" finished-at="2026-10-21T12:27:55 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.CategoryNavigationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
